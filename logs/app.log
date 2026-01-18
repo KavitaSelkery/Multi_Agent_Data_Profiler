@@ -1,0 +1,127 @@
+2026-01-11 18:54:33 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:05:52 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:06:24 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:06:31 | INFO     | tools.snowflake_tools:connect:37 - Connected to Snowflake: DDSVMFS-NX68042/UBER_DB/UBER_SCHEMA
+2026-01-11 19:06:32 | INFO     | agents.orchestrator:_initialize_agents:36 - Initializing agents...
+2026-01-11 19:06:32 | ERROR    | agents.orchestrator:_initialize_agents:56 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='get_... at 0x000002EC4CD4EC00>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:06:32 | ERROR    | __main__:connect_to_snowflake:121 - Connection error: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='get_... at 0x000002EC4CD4EC00>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:06:33 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:10:48 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:11:17 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:11:22 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:11:23 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:11:23 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:25:00 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:25:26 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:25:30 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Incorrect username or password was specified.
+2026-01-11 19:25:48 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:25:51 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Incorrect username or password was specified.
+2026-01-11 19:26:04 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:26:07 | INFO     | tools.snowflake_tools:connect:37 - Connected to Snowflake: DDSVMFS-NX68042/UBER_DB/UBER_SCHEMA
+2026-01-11 19:26:08 | INFO     | agents.orchestrator:_initialize_agents:36 - Initializing agents...
+2026-01-11 19:26:10 | INFO     | agents.orchestrator:_initialize_agents:41 - ✅ Profiler Agent initialized
+2026-01-11 19:26:10 | ERROR    | agents.orchestrator:_initialize_agents:56 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB560040>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:26:10 | ERROR    | __main__:connect_to_snowflake:121 - Connection error: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB560040>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:26:11 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:26:58 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:27:00 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:27:07 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:27:08 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:27:10 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:39:29 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:39:56 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:39:58 | INFO     | tools.snowflake_tools:connect:37 - Connected to Snowflake: DDSVMFS-NX68042/UBER_DB/UBER_SCHEMA
+2026-01-11 19:39:59 | INFO     | agents.orchestrator:_initialize_agents:36 - Initializing agents...
+2026-01-11 19:40:00 | INFO     | agents.orchestrator:_initialize_agents:41 - ✅ Profiler Agent initialized
+2026-01-11 19:40:00 | ERROR    | agents.orchestrator:_initialize_agents:56 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB604680>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:40:00 | ERROR    | __main__:connect_to_snowflake:121 - Connection error: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB604680>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:40:00 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:40:19 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:40:21 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:40:27 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:40:30 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:53:50 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:54:36 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:54:40 | INFO     | tools.snowflake_tools:connect:37 - Connected to Snowflake: DDSVMFS-NX68042/UBER_DB/UBER_SCHEMA
+2026-01-11 19:54:41 | INFO     | agents.orchestrator:_initialize_agents:30 - Initializing agents...
+2026-01-11 19:54:43 | INFO     | agents.orchestrator:_initialize_agents:35 - ✅ Profiler Agent initialized
+2026-01-11 19:54:43 | ERROR    | agents.orchestrator:_initialize_agents:49 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x000001E0CF734B80>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:54:43 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:54:43 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:55:07 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:59:43 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:59:46 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 19:59:47 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:00:05 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:00:44 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:00:47 | INFO     | tools.snowflake_tools:connect:37 - Connected to Snowflake: DDSVMFS-NX68042/UBER_DB/UBER_SCHEMA
+2026-01-11 20:00:48 | INFO     | agents.orchestrator:_initialize_agents:30 - Initializing agents...
+2026-01-11 20:00:50 | INFO     | agents.orchestrator:_initialize_agents:35 - ✅ Profiler Agent initialized
+2026-01-11 20:00:50 | INFO     | agents.orchestrator:_initialize_agents:38 - ✅ Anomaly Agent initialized
+2026-01-11 20:00:50 | INFO     | agents.orchestrator:_initialize_agents:41 - ✅ SQL Agent initialized
+2026-01-11 20:00:50 | INFO     | agents.orchestrator:_initialize_agents:44 - ✅ Reporter Agent initialized
+2026-01-11 20:00:50 | INFO     | agents.orchestrator:_initialize_agents:46 - Total agents initialized: 4
+2026-01-11 20:00:51 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:00:51 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:00:57 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:10:27 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:10:56 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:00 | INFO     | tools.snowflake_tools:connect:37 - Connected to Snowflake: DDSVMFS-NX68042/UBER_DB/UBER_SCHEMA
+2026-01-11 20:11:01 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:01 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:11 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:27 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:34 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:38 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:39 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:11:57 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:12:00 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:12:00 | INFO     | __main__:<module>:27 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:20:26 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:21:20 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:21:20 | ERROR    | __main__:connect_to_snowflake:150 - Connection error: SnowflakeManager.connect() got an unexpected keyword argument 'username'
+2026-01-11 20:21:58 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:21:58 | ERROR    | __main__:connect_to_snowflake:150 - Connection error: SnowflakeManager.connect() got an unexpected keyword argument 'username'
+2026-01-11 20:26:43 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:28:00 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:28:03 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Role 'DARA_ENGINEER_ROLE' specified in the connect string does not exist or not authorized. Contact your local system administrator, or attempt to login with another role, e.g. PUBLIC.
+2026-01-11 20:28:29 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:28:32 | INFO     | tools.snowflake_tools:connect:37 - Connected to Snowflake: DDSVMFS-NX68042/UBER_DB/UBER_SCHEMA
+2026-01-11 20:28:33 | INFO     | agents.orchestrator:initialize:50 - Initializing orchestrator...
+2026-01-11 20:28:33 | INFO     | agents.orchestrator:initialize:69 - Initializing profiler agent...
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:72 - ✅ Profiler Agent initialized
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:69 - Initializing anomaly agent...
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:72 - ✅ Anomaly Agent initialized
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:69 - Initializing sql agent...
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:72 - ✅ Sql Agent initialized
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:69 - Initializing reporter agent...
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:72 - ✅ Reporter Agent initialized
+2026-01-11 20:28:35 | INFO     | agents.orchestrator:initialize:82 - ✅ Orchestrator initialized with 4/4 agents
+2026-01-11 20:28:35 | INFO     | __main__:connect_to_snowflake:156 - Orchestrator initialized with status: {'profiler': {'initialized': True, 'tools_count': 4, 'has_executor': True, 'name': 'Data Profiler Agent', 'description': 'Profiles database tables and analyzes data quality'}, 'anomaly': {'initialized': True, 'tools_count': 5, 'has_executor': True, 'name': 'Anomaly Detection Agent', 'description': 'Detects anomalies, outliers, and unusual patterns in data'}, 'sql': {'initialized': True, 'tools_count': 5, 'has_executor': True, 'name': 'SQL Generation Agent', 'description': 'Generates, validates, and executes SQL queries from natural language'}, 'reporter': {'initialized': True, 'tools_count': 5, 'has_executor': True, 'name': 'Reporting Agent', 'description': 'Generates comprehensive data quality reports with visualizations'}, 'orchestrator': {'initialized': True, 'error': None, 'working_agents': 4}}
+2026-01-11 20:28:36 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-11 20:28:40 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-17 10:28:37 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-17 10:29:16 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard
+2026-01-17 10:29:19 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Your free trial has ended and all of your virtual warehouses have been suspended. Add billing information in the Snowflake web UI to continue using the full set of Snowflake features.
+2026-01-17 21:35:22 | INFO     | __main__:<module>:28 - Starting Snowflake Agentic Dashboard

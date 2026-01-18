@@ -1,0 +1,51 @@
+# streamlit==1.35.0
+# langchain==0.2.0
+# langchain-openai==0.1.7
+# langgraph==0.0.52
+# openai==1.30.0
+# snowflake-connector-python==3.10.0
+# pandas==2.2.2
+# numpy==1.26.4
+# plotly==5.20.0
+# openpyxl==3.1.2
+# python-dotenv==1.0.1
+# pydantic==2.7.0
+# pydantic-settings==2.2.1
+# sqlalchemy==2.0.29
+# chromadb==0.4.24
+# tiktoken==0.7.0
+# loguru==0.7.2
+# typing-extensions==4.11.0
+
+
+# Use these versions that work with Python 3.13
+streamlit>=1.35.0
+langchain>=0.2.0
+langchain-openai>=0.1.7
+langgraph>=0.0.52
+openai>=1.30.0
+snowflake-connector-python>=3.10.0
+pandas>=2.2.2
+# Install NumPy from pre-release
+#numpy @ https://files.pythonhosted.org/packages/a9/38/b5fe82087f2b6247170b7daf165e43e546b600b19c6c1a3a408b1e4e9591/numpy-2.0.1-cp313-cp313-win_amd64.whl
+plotly>=5.20.0
+openpyxl>=3.1.2
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+pydantic-settings>=2.2.1
+sqlalchemy>=2.0.29
+chromadb>=0.4.24
+tiktoken>=0.7.0
+loguru>=0.7.2
+typing-extensions>=4.11.0
+scikit-learn>=1.5.1
+langchain-classic>=1.0.1
+redis>=5.0.0
+langchain-redis>=0.1.0
+matplotlib>=3.9.0
+seaborn>=0.13.2
+markdown>=3.6
+pdfkit>=1.0.0
+email-validator>=2.1.0
+phonenumbers>=8.13.0
+loguru>=0.7.0

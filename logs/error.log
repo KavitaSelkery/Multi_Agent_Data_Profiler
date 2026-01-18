@@ -1,0 +1,34 @@
+2026-01-11 19:06:32 | ERROR    | agents.orchestrator:_initialize_agents:56 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='get_... at 0x000002EC4CD4EC00>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:06:32 | ERROR    | __main__:connect_to_snowflake:121 - Connection error: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='get_... at 0x000002EC4CD4EC00>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:25:30 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Incorrect username or password was specified.
+2026-01-11 19:25:51 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Incorrect username or password was specified.
+2026-01-11 19:26:10 | ERROR    | agents.orchestrator:_initialize_agents:56 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB560040>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:26:10 | ERROR    | __main__:connect_to_snowflake:121 - Connection error: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB560040>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:40:00 | ERROR    | agents.orchestrator:_initialize_agents:56 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB604680>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:40:00 | ERROR    | __main__:connect_to_snowflake:121 - Connection error: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x0000011EEB604680>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 19:54:43 | ERROR    | agents.orchestrator:_initialize_agents:49 - Failed to initialize agents: 1 validation error for Tool
+func
+  Input should be callable [type=callable_type, input_value=StructuredTool(name='dete... at 0x000001E0CF734B80>), input_type=StructuredTool]
+    For further information visit https://errors.pydantic.dev/2.12/v/callable_type
+2026-01-11 20:21:20 | ERROR    | __main__:connect_to_snowflake:150 - Connection error: SnowflakeManager.connect() got an unexpected keyword argument 'username'
+2026-01-11 20:21:58 | ERROR    | __main__:connect_to_snowflake:150 - Connection error: SnowflakeManager.connect() got an unexpected keyword argument 'username'
+2026-01-11 20:28:03 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Role 'DARA_ENGINEER_ROLE' specified in the connect string does not exist or not authorized. Contact your local system administrator, or attempt to login with another role, e.g. PUBLIC.
+2026-01-17 10:29:19 | ERROR    | tools.snowflake_tools:connect:41 - Connection failed: 250001 (08001): Failed to connect to DB: DDSVMFS-NX68042.snowflakecomputing.com:443. Your free trial has ended and all of your virtual warehouses have been suspended. Add billing information in the Snowflake web UI to continue using the full set of Snowflake features.
